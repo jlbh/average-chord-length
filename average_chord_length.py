@@ -22,7 +22,7 @@ avrg_l = lambda arr: np.sum(np.linalg.norm(arr[0,:,:] - arr[1,:,:], axis=0)) / l
 Calculate
 '''
 # Number of lines
-num = 100_000_000
+num = 100_000
 
 # Generate the data
 d = distan(num)
